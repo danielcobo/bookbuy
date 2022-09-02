@@ -24,11 +24,11 @@ export default async function goToCheckout(book, test) {
 
     await Promise.all([
       page.click('.s-result-item h2 a'),
-      page.waitForSelector('#buy-now-button'), //wait for navigation could fail on redirect
+      page.waitForNavigation(),
     ]);
 
     await Promise.all([
-      await page.click('#buy-now-button'),
+      page.click('#buy-now-button'),
       page.waitForNavigation(),
     ]);
 

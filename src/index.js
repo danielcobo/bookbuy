@@ -25,4 +25,4 @@ const random = Math.floor(Math.random() * books.length);
 const book = books[random];
 
 progress(`Book selected: ${book}`);
-await checkout(book);
+await checkout(book).catch((e) => err(e, 'Could not reach the checkout page.'));
