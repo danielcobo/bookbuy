@@ -1,6 +1,6 @@
 {
  "name": "bookbuy",
- "version": "1.0.2",
+ "version": "1.0.3",
  "description": "Tech challenge - Goodreads shopper",
  "main": "src/index.js",
  "type": "module",
