@@ -1,7 +1,7 @@
 import progress from './progress';
 import { jest } from '@jest/globals';
 
-test('Test description logging and process.exit(1))', function () {
+test('Test progress', function () {
   jest.spyOn(console, 'log');
   progress('Good work');
 
