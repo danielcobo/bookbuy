@@ -1,6 +1,6 @@
 # bookbuy
 
-Tech challenge - Goodreads shooper.
+Tech challenge - Goodreads shopper.
 
 Objectives:
 1. Will ask the user to select their preferred genre
