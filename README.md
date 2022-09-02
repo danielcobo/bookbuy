@@ -32,7 +32,7 @@ To use this package you will need:
 Install using the terminal:
 
 ```bash
-npm install bookbuy
+npm install bookbuy -g
 ```
 
 ### Example use
