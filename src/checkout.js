@@ -19,7 +19,7 @@ export default async function goToCheckout(book, test) {
     //Alternative to page.type - save 1 pageload step
     const URLquery = encodeURIComponent(book + ' paperback'); //Audio books can have buy button missing due to "free" promo
     await page.goto('https://www.amazon.com/s?k=' + URLquery, {
-      waitUntil: 'domcontentloaded',
+      waitUntil: 'networkidle2',
     });
 
     await Promise.all([
